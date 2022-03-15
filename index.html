@@ -30,13 +30,13 @@
         <section id="title-section" class="show">
             <div class="row">
                 <div class="col-md-12">
-                    <h1>Coding Quiz Challenge</h1>
+                    <h1>Harry Potter Quiz </h1>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-12">
-                    <p>Try and answer the following code-related questions within the time limit. Keep in mind that
-                        incorrect answers will penalize your your score time by 10 seconds!</p>
+                    <p>Try to answer the upcoming questions to the best of your ability and within the time limit. 
+                        Keep in mind that any incorrect answers will deduct 10 seconds from your time.</p>
                 </div>
             </div>
             <div class="row">
@@ -45,8 +45,18 @@
                 </div>
             </div>
         </section>
-
-    
+         <!-- questions -->
+         <section id="quiz-section" class="hide">
+            <div class="row">
+                <div class="col-md-12 questions">
+                    <h3 id="question-title"></h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12" id="choices"></div>
+                <div id="feedback" class="feedback hide"></div>
+            </div>
+        </section>
 
         <script type="text/javascript" src="./resources/js/questions.js"></script>
         <script type="text/javascript" src="./resources/js/script.js"></script>
